@@ -49,7 +49,7 @@ const ComingSoonPage = () => {
                         <p id="invalidEmailText" className="hidden text-red-500 text-center text-sm font-thin mt-2 md:basis-full"><i>Please provide a valid email</i></p>
                     </div>
                     <div className="md:basis-1/3">
-                        <button className="rounded-full py-3 px-6 text-sm text-white bg-pingBlue font-pingLibreFranklin w-full">Notify me</button>
+                        <button className="rounded-full py-3 px-6 text-sm text-white bg-pingBlue font-pingLibreFranklin w-full hover:bg-pingPaleBlue">Notify me</button>
                     </div>
                 </form>
             </div>
@@ -58,9 +58,9 @@ const ComingSoonPage = () => {
             </div>
             <div className="list-none flex flex-col items-end justify-end h-full">
                 <ul className="flex flex-row justify-between px-12 mb-6 w-full">
-                    <li className="border-2 border-pingLightGray rounded-full px-[7px] py-[5px] cursor-pointer"><i className="fa-brands fa-facebook-f w-5 h-5 text-center items-center leading-5 text-pingBlue"></i></li>
-                    <li className="border-2 border-pingLightGray rounded-full px-[7px] py-[5px] cursor-pointer"><i className="fa-brands fa-twitter w-5 h-5 text-center items-center leading-5 text-pingBlue"></i></li>
-                    <li className="border-2 border-pingLightGray rounded-full px-[7px] py-[5px] cursor-pointer"><i className="fa-brands fa-instagram w-5 h-5 text-center items-center leading-5 text-pingBlue"></i></li>
+                    <li className="!flex items-center justify-center border-2 border-pingLightGray rounded-full px-[7px] py-[5px] cursor-pointer hover:bg-pingBlue hover:text-white hover:border-pingBlue fa-brands fa-facebook-f w-10 h-10 text-center leading-5 text-pingBlue"></li>
+                    <li className="!flex items-center justify-center border-2 border-pingLightGray rounded-full px-[7px] py-[5px] cursor-pointer hover:bg-pingBlue hover:text-white hover:border-pingBlue fa-brands fa-twitter w-10 h-10 text-center leading-5 text-pingBlue"></li>
+                    <li className="!flex items-center justify-center border-2 border-pingLightGray rounded-full px-[7px] py-[5px] cursor-pointer hover:bg-pingBlue hover:text-white hover:border-pingBlue fa-brands fa-instagram w-10 h-10 text-center leading-5 text-pingBlue"></li>
                 </ul>
                 <div className="mb-6">
                     <p className="text-sm text-pingGray font-light">
